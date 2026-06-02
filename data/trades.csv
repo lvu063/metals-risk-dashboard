@@ -1,0 +1,301 @@
+trade_id,trade_date,settlement_date,metal,symbol,desk,book,trader,counterparty,buy_sell,trade_type,quantity,unit,trade_price,spot_at_trade,currency,notional_usd,status
+TRD-000001,2024-07-16,2024-07-18,Silver,XAG,Precious Metals,PM-PROP-01,M. Patel,Goldman Sachs,Buy,Forward,37800,troy oz,27.8288,27.7112,USD,1051928.64,Confirmed
+TRD-000002,2024-06-05,2024-06-07,Gold,XAU,Precious Metals,PM-PROP-01,P. O'Brien,Citibank NA,Buy,Forward,1400,troy oz,2358.099,2351.2585,USD,3301338.6,Confirmed
+TRD-000003,2024-04-24,2024-07-23,Copper,HG,Base Metals,BM-PROP-01,M. Patel,HSBC Metals,Buy,Spot,1800,lbs,4.1317,4.1179,USD,7437.06,Confirmed
+TRD-000004,2024-07-09,2024-07-11,Aluminium,AL,Base Metals,BM-HEDGE-01,A. Dubois,Morgan Stanley,Buy,Swap,3450,MT,2507.9127,2506.2843,USD,8652298.81,Pending
+TRD-000005,2024-05-17,2024-08-15,Aluminium,AL,Base Metals,BM-CLIENT-01,L. Chen,HSBC Metals,Buy,Forward,4250,MT,2356.0212,2344.541,USD,10013090.1,Confirmed
+TRD-000006,2024-09-18,2024-09-20,Nickel,NI,Base Metals,BM-CLIENT-01,M. Patel,Goldman Sachs,Sell,Forward,1350,MT,17320.9186,17272.8167,USD,23383240.11,Pending
+TRD-000007,2024-11-27,2024-12-02,Palladium,XPD,Precious Metals,PM-PROP-01,J. Kowalski,Citibank NA,Buy,Forward,47400,troy oz,1029.8453,1025.8445,USD,48814667.22,Settled
+TRD-000008,2024-07-11,2024-07-13,Aluminium,AL,Base Metals,BM-HEDGE-01,T. Vasquez,Standard Chartered,Sell,Spot,3650,MT,2382.7468,2379.1908,USD,8697025.82,Confirmed
+TRD-000009,2024-07-08,2024-10-06,Palladium,XPD,Precious Metals,PM-CLIENT-01,S. Okonkwo,Barclays Metals,Sell,Spot,46000,troy oz,1064.1561,1058.8815,USD,48951180.6,Confirmed
+TRD-000010,2024-04-19,2024-07-18,Gold,XAU,Precious Metals,PM-PROP-01,T. Vasquez,Barclays Metals,Sell,Forward,34900,troy oz,2271.6698,2270.0958,USD,79281276.02,Confirmed
+TRD-000011,2024-03-22,2024-06-20,Gold,XAU,Precious Metals,PM-CLIENT-01,A. Dubois,Deutsche Bank,Sell,Forward,38500,troy oz,2441.3557,2440.4253,USD,93992194.45,Confirmed
+TRD-000012,2024-07-08,2024-08-07,Gold,XAU,Precious Metals,PM-CLIENT-01,L. Chen,Standard Chartered,Buy,Option,26000,troy oz,2411.776,2411.5611,USD,62706176.0,Confirmed
+TRD-000013,2024-01-02,2024-02-01,Platinum,XPT,Precious Metals,PM-CLIENT-01,A. Dubois,Citibank NA,Buy,Swap,1000,troy oz,966.7638,962.7673,USD,966763.8,Confirmed
+TRD-000014,2024-12-13,2024-12-15,Silver,XAG,Precious Metals,PM-PROP-01,S. Okonkwo,JPMorgan Commodities,Buy,Spot,27300,troy oz,29.9019,29.8623,USD,816321.87,Confirmed
+TRD-000015,2024-05-23,2024-08-21,Zinc,ZN,Base Metals,BM-PROP-01,M. Patel,Citibank NA,Sell,Spot,4300,MT,2751.7395,2747.2806,USD,11832479.85,Confirmed
+TRD-000016,2024-06-13,2024-07-13,Aluminium,AL,Base Metals,BM-PROP-01,R. Nakamura,HSBC Metals,Buy,Spot,475,MT,2391.7839,2381.4533,USD,1136097.35,Confirmed
+TRD-000017,2024-12-13,2024-12-15,Copper,HG,Base Metals,BM-CLIENT-01,P. O'Brien,Citibank NA,Sell,Spot,4650,lbs,4.1718,4.1663,USD,19398.87,Confirmed
+TRD-000018,2024-10-30,2024-11-04,Zinc,ZN,Base Metals,BM-HEDGE-01,M. Patel,Scotiabank,Buy,Forward,4675,MT,2804.4114,2790.7669,USD,13110623.29,Confirmed
+TRD-000019,2024-06-27,2024-06-29,Aluminium,AL,Base Metals,BM-PROP-01,L. Chen,HSBC Metals,Buy,Spot,2875,MT,2373.9821,2374.1012,USD,6825198.54,Confirmed
+TRD-000020,2024-01-11,2024-01-13,Silver,XAG,Precious Metals,PM-PROP-01,L. Chen,Deutsche Bank,Buy,Spot,43500,troy oz,29.7567,29.7151,USD,1294416.45,Settled
+TRD-000021,2024-01-03,2024-01-08,Platinum,XPT,Precious Metals,PM-HEDGE-01,T. Vasquez,Standard Chartered,Sell,Spot,40200,troy oz,959.7423,956.9899,USD,38581640.46,Confirmed
+TRD-000022,2024-02-14,2024-05-14,Palladium,XPD,Precious Metals,PM-PROP-01,S. Okonkwo,Scotiabank,Sell,Forward,2600,troy oz,1034.5183,1030.4285,USD,2689747.58,Cancelled
+TRD-000023,2024-02-20,2024-03-21,Silver,XAG,Precious Metals,PM-PROP-01,L. Chen,Goldman Sachs,Buy,Spot,44200,troy oz,27.3939,27.2687,USD,1210810.38,Confirmed
+TRD-000024,2024-08-14,2024-08-16,Silver,XAG,Precious Metals,PM-HEDGE-01,A. Dubois,TD Securities,Sell,Spot,36700,troy oz,27.6784,27.6571,USD,1015797.28,Confirmed
+TRD-000025,2024-11-25,2024-12-25,Silver,XAG,Precious Metals,PM-PROP-01,S. Okonkwo,UBS AG,Buy,Forward,5200,troy oz,29.9667,29.9206,USD,155826.84,Settled
+TRD-000026,2024-07-23,2024-07-25,Palladium,XPD,Precious Metals,PM-HEDGE-01,J. Kowalski,Morgan Stanley,Sell,Forward,27900,troy oz,1048.6337,1043.5094,USD,29256880.23,Settled
+TRD-000027,2024-03-15,2024-03-17,Copper,HG,Base Metals,BM-CLIENT-01,R. Nakamura,Citibank NA,Buy,Spot,700,lbs,4.0614,4.0523,USD,2842.98,Pending
+TRD-000028,2024-12-17,2024-12-19,Copper,HG,Base Metals,BM-CLIENT-01,J. Kowalski,Scotiabank,Buy,Forward,350,lbs,4.3346,4.3182,USD,1517.11,Confirmed
+TRD-000029,2024-07-08,2024-07-10,Platinum,XPT,Precious Metals,PM-CLIENT-01,S. Okonkwo,Barclays Metals,Sell,Forward,28300,troy oz,1002.4193,1003.6406,USD,28368466.19,Confirmed
+TRD-000030,2024-04-16,2024-04-21,Aluminium,AL,Base Metals,BM-CLIENT-01,J. Kowalski,UBS AG,Sell,Option,1975,MT,2367.1516,2358.7242,USD,4675124.41,Confirmed
+TRD-000031,2024-03-14,2024-03-16,Palladium,XPD,Precious Metals,PM-CLIENT-01,L. Chen,Standard Chartered,Sell,Swap,45300,troy oz,1082.9163,1079.4122,USD,49056108.39,Cancelled
+TRD-000032,2024-01-18,2024-01-20,Platinum,XPT,Precious Metals,PM-HEDGE-01,L. Chen,JPMorgan Commodities,Sell,Option,17100,troy oz,1007.2446,1003.1833,USD,17223882.66,Confirmed
+TRD-000033,2024-01-29,2024-02-03,Silver,XAG,Precious Metals,PM-HEDGE-01,L. Chen,Citibank NA,Sell,Spot,41900,troy oz,27.8126,27.7089,USD,1165347.94,Confirmed
+TRD-000034,2024-08-23,2024-08-25,Palladium,XPD,Precious Metals,PM-HEDGE-01,R. Nakamura,Scotiabank,Sell,Spot,49600,troy oz,1089.9611,1088.2571,USD,54062070.56,Confirmed
+TRD-000035,2024-07-09,2024-07-11,Copper,HG,Base Metals,BM-PROP-01,M. Patel,Deutsche Bank,Sell,Forward,2800,lbs,3.9883,3.9875,USD,11167.24,Settled
+TRD-000036,2024-02-01,2024-05-01,Palladium,XPD,Precious Metals,PM-HEDGE-01,R. Nakamura,Goldman Sachs,Buy,Spot,26700,troy oz,1041.7104,1043.286,USD,27813667.68,Confirmed
+TRD-000037,2024-08-02,2024-09-01,Silver,XAG,Precious Metals,PM-CLIENT-01,S. Okonkwo,Citibank NA,Sell,Spot,21000,troy oz,27.9584,27.9565,USD,587126.4,Confirmed
+TRD-000038,2024-05-06,2024-06-05,Zinc,ZN,Base Metals,BM-CLIENT-01,R. Nakamura,TD Securities,Buy,Spot,2600,MT,2817.8589,2819.3495,USD,7326433.14,Confirmed
+TRD-000039,2024-12-05,2025-03-05,Palladium,XPD,Precious Metals,PM-CLIENT-01,R. Nakamura,HSBC Metals,Sell,Forward,4400,troy oz,1017.7854,1015.3176,USD,4478255.76,Settled
+TRD-000040,2024-08-09,2024-08-11,Palladium,XPD,Precious Metals,PM-CLIENT-01,M. Patel,TD Securities,Buy,Spot,7600,troy oz,1087.4784,1082.1891,USD,8264835.84,Confirmed
+TRD-000041,2024-10-02,2024-10-07,Palladium,XPD,Precious Metals,PM-CLIENT-01,M. Patel,Deutsche Bank,Buy,Option,7600,troy oz,1043.6454,1039.4636,USD,7931705.04,Confirmed
+TRD-000042,2024-06-27,2024-06-29,Nickel,NI,Base Metals,BM-PROP-01,P. O'Brien,Barclays Metals,Sell,Swap,2975,MT,17497.6848,17423.8082,USD,52055612.28,Confirmed
+TRD-000043,2024-12-06,2024-12-11,Platinum,XPT,Precious Metals,PM-CLIENT-01,L. Chen,JPMorgan Commodities,Sell,Forward,12700,troy oz,957.978,956.4008,USD,12166320.6,Confirmed
+TRD-000044,2024-07-15,2024-07-17,Copper,HG,Base Metals,BM-PROP-01,S. Okonkwo,BNP Paribas,Buy,Spot,3475,lbs,4.0736,4.0752,USD,14155.76,Confirmed
+TRD-000045,2024-08-26,2024-09-25,Zinc,ZN,Base Metals,BM-HEDGE-01,J. Kowalski,Goldman Sachs,Buy,Option,400,MT,2792.4856,2790.4588,USD,1116994.24,Confirmed
+TRD-000046,2024-08-01,2024-08-06,Gold,XAU,Precious Metals,PM-HEDGE-01,L. Chen,TD Securities,Sell,Forward,48900,troy oz,2440.706,2433.0603,USD,119350523.4,Confirmed
+TRD-000047,2024-01-22,2024-01-27,Zinc,ZN,Base Metals,BM-HEDGE-01,S. Okonkwo,Goldman Sachs,Sell,Forward,4350,MT,2764.812,2754.1163,USD,12026932.2,Confirmed
+TRD-000048,2024-01-19,2024-01-21,Zinc,ZN,Base Metals,BM-CLIENT-01,R. Nakamura,Citibank NA,Sell,Spot,875,MT,2839.4618,2839.9699,USD,2484529.08,Confirmed
+TRD-000049,2024-07-18,2024-07-23,Aluminium,AL,Base Metals,BM-HEDGE-01,R. Nakamura,Citibank NA,Sell,Spot,525,MT,2393.5497,2389.3065,USD,1256613.59,Pending
+TRD-000050,2024-06-26,2024-06-28,Gold,XAU,Precious Metals,PM-PROP-01,M. Patel,Goldman Sachs,Buy,Spot,31900,troy oz,2432.9137,2429.7188,USD,77609947.03,Settled
+TRD-000051,2024-07-03,2024-07-05,Nickel,NI,Base Metals,BM-CLIENT-01,A. Dubois,HSBC Metals,Buy,Forward,3900,MT,16904.1886,16918.631,USD,65926335.54,Confirmed
+TRD-000052,2024-09-26,2024-10-01,Copper,HG,Base Metals,BM-CLIENT-01,L. Chen,HSBC Metals,Buy,Forward,1275,lbs,4.3497,4.3332,USD,5545.87,Pending
+TRD-000053,2024-03-27,2024-04-26,Copper,HG,Base Metals,BM-CLIENT-01,R. Nakamura,Scotiabank,Sell,Forward,2225,lbs,4.2608,4.2673,USD,9480.28,Settled
+TRD-000054,2024-11-06,2024-11-08,Nickel,NI,Base Metals,BM-PROP-01,A. Dubois,Goldman Sachs,Buy,Spot,2950,MT,17792.9081,17737.2739,USD,52489078.9,Settled
+TRD-000055,2024-11-08,2025-02-06,Nickel,NI,Base Metals,BM-HEDGE-01,T. Vasquez,Citibank NA,Buy,Option,2075,MT,17637.2213,17661.8306,USD,36597234.2,Settled
+TRD-000056,2024-01-22,2024-01-27,Zinc,ZN,Base Metals,BM-HEDGE-01,R. Nakamura,JPMorgan Commodities,Sell,Spot,1175,MT,2908.6566,2898.2668,USD,3417671.5,Settled
+TRD-000057,2024-01-09,2024-02-08,Copper,HG,Base Metals,BM-CLIENT-01,L. Chen,BNP Paribas,Buy,Forward,550,lbs,4.3421,4.3359,USD,2388.16,Confirmed
+TRD-000058,2024-01-12,2024-01-14,Nickel,NI,Base Metals,BM-HEDGE-01,T. Vasquez,Barclays Metals,Buy,Spot,2600,MT,17175.4072,17139.9123,USD,44656058.72,Confirmed
+TRD-000059,2024-08-26,2024-08-28,Zinc,ZN,Base Metals,BM-CLIENT-01,L. Chen,UBS AG,Sell,Spot,1750,MT,2853.4986,2856.7994,USD,4993622.55,Confirmed
+TRD-000060,2024-06-04,2024-09-02,Platinum,XPT,Precious Metals,PM-PROP-01,A. Dubois,Citibank NA,Sell,Swap,37100,troy oz,982.1974,978.4515,USD,36439523.54,Confirmed
+TRD-000061,2024-04-01,2024-04-03,Copper,HG,Base Metals,BM-PROP-01,T. Vasquez,HSBC Metals,Sell,Forward,350,lbs,3.957,3.9614,USD,1384.95,Settled
+TRD-000062,2024-12-10,2024-12-15,Copper,HG,Base Metals,BM-HEDGE-01,M. Patel,Deutsche Bank,Sell,Swap,350,lbs,4.0894,4.0839,USD,1431.29,Confirmed
+TRD-000063,2024-04-17,2024-05-17,Gold,XAU,Precious Metals,PM-PROP-01,L. Chen,Barclays Metals,Buy,Spot,4400,troy oz,2463.7733,2455.5445,USD,10840602.52,Confirmed
+TRD-000064,2024-11-04,2024-11-06,Nickel,NI,Base Metals,BM-HEDGE-01,L. Chen,JPMorgan Commodities,Buy,Swap,400,MT,17610.4901,17620.1016,USD,7044196.04,Pending
+TRD-000065,2024-05-03,2024-06-02,Platinum,XPT,Precious Metals,PM-PROP-01,A. Dubois,Scotiabank,Sell,Spot,200,troy oz,940.3801,938.3564,USD,188076.02,Confirmed
+TRD-000066,2024-11-21,2024-11-23,Copper,HG,Base Metals,BM-CLIENT-01,S. Okonkwo,JPMorgan Commodities,Buy,Spot,1700,lbs,4.2355,4.2278,USD,7200.35,Settled
+TRD-000067,2024-04-29,2024-05-01,Silver,XAG,Precious Metals,PM-PROP-01,A. Dubois,BNP Paribas,Sell,Spot,42300,troy oz,28.8078,28.7709,USD,1218569.94,Confirmed
+TRD-000068,2024-12-19,2024-12-24,Copper,HG,Base Metals,BM-CLIENT-01,J. Kowalski,HSBC Metals,Sell,Forward,275,lbs,3.9848,3.9759,USD,1095.82,Confirmed
+TRD-000069,2024-07-11,2024-08-10,Gold,XAU,Precious Metals,PM-CLIENT-01,A. Dubois,Standard Chartered,Buy,Spot,38800,troy oz,2247.6951,2241.9544,USD,87210569.88,Cancelled
+TRD-000070,2024-12-18,2024-12-20,Zinc,ZN,Base Metals,BM-CLIENT-01,S. Okonkwo,UBS AG,Sell,Spot,2625,MT,2788.0637,2791.6029,USD,7318667.21,Confirmed
+TRD-000071,2024-10-15,2024-11-14,Nickel,NI,Base Metals,BM-HEDGE-01,P. O'Brien,Barclays Metals,Sell,Spot,575,MT,16669.384,16689.22,USD,9584895.8,Settled
+TRD-000072,2024-11-27,2024-12-02,Gold,XAU,Precious Metals,PM-CLIENT-01,T. Vasquez,Scotiabank,Sell,Forward,26600,troy oz,2248.5822,2245.238,USD,59812286.52,Confirmed
+TRD-000073,2024-11-11,2025-02-09,Platinum,XPT,Precious Metals,PM-HEDGE-01,J. Kowalski,Barclays Metals,Buy,Forward,1500,troy oz,978.6733,978.5018,USD,1468009.95,Confirmed
+TRD-000074,2024-11-27,2024-11-29,Palladium,XPD,Precious Metals,PM-PROP-01,A. Dubois,Deutsche Bank,Sell,Swap,7900,troy oz,1065.5553,1065.5095,USD,8417886.87,Settled
+TRD-000075,2024-11-22,2024-12-22,Nickel,NI,Base Metals,BM-PROP-01,P. O'Brien,UBS AG,Buy,Option,1225,MT,16877.0049,16878.1234,USD,20674331.0,Settled
+TRD-000076,2024-07-22,2024-10-20,Copper,HG,Base Metals,BM-PROP-01,T. Vasquez,UBS AG,Sell,Option,3775,lbs,4.071,4.0664,USD,15368.02,Confirmed
+TRD-000077,2024-08-19,2024-08-21,Zinc,ZN,Base Metals,BM-HEDGE-01,J. Kowalski,UBS AG,Sell,Spot,1550,MT,2944.6791,2934.6169,USD,4564252.6,Pending
+TRD-000078,2024-04-18,2024-04-23,Zinc,ZN,Base Metals,BM-HEDGE-01,T. Vasquez,HSBC Metals,Sell,Option,825,MT,2942.2211,2930.1508,USD,2427332.41,Confirmed
+TRD-000079,2024-04-12,2024-04-17,Nickel,NI,Base Metals,BM-PROP-01,R. Nakamura,Goldman Sachs,Buy,Spot,1000,MT,18235.9659,18149.1327,USD,18235965.9,Pending
+TRD-000080,2024-09-30,2024-10-02,Silver,XAG,Precious Metals,PM-HEDGE-01,M. Patel,Citibank NA,Sell,Option,45500,troy oz,28.8109,28.8614,USD,1310895.95,Pending
+TRD-000081,2024-03-06,2024-03-11,Copper,HG,Base Metals,BM-PROP-01,J. Kowalski,Scotiabank,Buy,Spot,4875,lbs,4.3609,4.3485,USD,21259.39,Confirmed
+TRD-000082,2024-09-13,2024-09-15,Gold,XAU,Precious Metals,PM-HEDGE-01,S. Okonkwo,Standard Chartered,Sell,Forward,12600,troy oz,2341.9906,2333.7114,USD,29509081.56,Confirmed
+TRD-000083,2024-06-21,2024-06-26,Zinc,ZN,Base Metals,BM-CLIENT-01,A. Dubois,Morgan Stanley,Buy,Spot,925,MT,2914.9444,2915.5921,USD,2696323.57,Confirmed
+TRD-000084,2024-04-23,2024-04-25,Nickel,NI,Base Metals,BM-HEDGE-01,A. Dubois,TD Securities,Sell,Forward,2225,MT,17414.906,17398.0271,USD,38748165.85,Settled
+TRD-000085,2024-12-12,2024-12-14,Palladium,XPD,Precious Metals,PM-HEDGE-01,A. Dubois,Scotiabank,Sell,Forward,29300,troy oz,1027.4663,1022.4066,USD,30104762.59,Cancelled
+TRD-000086,2024-01-08,2024-02-07,Zinc,ZN,Base Metals,BM-HEDGE-01,A. Dubois,Citibank NA,Buy,Swap,5000,MT,2911.553,2902.2189,USD,14557765.0,Pending
+TRD-000087,2024-05-16,2024-06-15,Aluminium,AL,Base Metals,BM-PROP-01,J. Kowalski,JPMorgan Commodities,Buy,Forward,4850,MT,2399.2328,2388.9036,USD,11636279.08,Settled
+TRD-000088,2024-09-18,2024-12-17,Gold,XAU,Precious Metals,PM-CLIENT-01,L. Chen,Standard Chartered,Sell,Spot,46600,troy oz,2265.4381,2263.3818,USD,105569415.46,Settled
+TRD-000089,2024-12-25,2024-12-27,Aluminium,AL,Base Metals,BM-CLIENT-01,R. Nakamura,HSBC Metals,Sell,Swap,1650,MT,2531.1328,2530.9658,USD,4176369.12,Confirmed
+TRD-000090,2024-06-11,2024-09-09,Silver,XAG,Precious Metals,PM-PROP-01,A. Dubois,Barclays Metals,Sell,Spot,20400,troy oz,29.1612,29.139,USD,594888.48,Confirmed
+TRD-000091,2024-07-08,2024-08-07,Aluminium,AL,Base Metals,BM-CLIENT-01,J. Kowalski,Goldman Sachs,Sell,Spot,4100,MT,2419.9718,2420.8512,USD,9921884.38,Settled
+TRD-000092,2024-06-07,2024-09-05,Aluminium,AL,Base Metals,BM-CLIENT-01,J. Kowalski,Scotiabank,Sell,Forward,2975,MT,2340.2158,2342.9882,USD,6962142.0,Confirmed
+TRD-000093,2024-03-11,2024-03-13,Nickel,NI,Base Metals,BM-PROP-01,P. O'Brien,Goldman Sachs,Sell,Spot,875,MT,18226.6637,18177.7038,USD,15948330.74,Pending
+TRD-000094,2024-03-12,2024-03-17,Platinum,XPT,Precious Metals,PM-HEDGE-01,T. Vasquez,TD Securities,Sell,Spot,48100,troy oz,991.9225,991.3339,USD,47711472.25,Cancelled
+TRD-000095,2024-09-20,2024-10-20,Aluminium,AL,Base Metals,BM-PROP-01,M. Patel,TD Securities,Sell,Spot,4150,MT,2548.2402,2548.4156,USD,10575196.83,Confirmed
+TRD-000096,2024-01-16,2024-01-18,Palladium,XPD,Precious Metals,PM-CLIENT-01,L. Chen,Goldman Sachs,Buy,Forward,12500,troy oz,1079.5047,1080.1134,USD,13493808.75,Confirmed
+TRD-000097,2024-04-16,2024-05-16,Palladium,XPD,Precious Metals,PM-HEDGE-01,S. Okonkwo,HSBC Metals,Buy,Swap,44000,troy oz,999.5753,997.7977,USD,43981313.2,Pending
+TRD-000098,2024-01-11,2024-01-13,Gold,XAU,Precious Metals,PM-PROP-01,S. Okonkwo,BNP Paribas,Sell,Spot,12200,troy oz,2417.802,2418.1464,USD,29497184.4,Confirmed
+TRD-000099,2024-02-15,2024-02-20,Silver,XAG,Precious Metals,PM-CLIENT-01,J. Kowalski,BNP Paribas,Buy,Spot,18600,troy oz,28.3399,28.3526,USD,527122.14,Settled
+TRD-000100,2024-01-23,2024-01-25,Copper,HG,Base Metals,BM-HEDGE-01,T. Vasquez,HSBC Metals,Sell,Forward,2575,lbs,4.3631,4.3569,USD,11234.98,Settled
+TRD-000101,2024-04-16,2024-04-18,Aluminium,AL,Base Metals,BM-CLIENT-01,A. Dubois,TD Securities,Sell,Spot,4000,MT,2363.5624,2358.4169,USD,9454249.6,Confirmed
+TRD-000102,2024-03-22,2024-06-20,Zinc,ZN,Base Metals,BM-PROP-01,P. O'Brien,UBS AG,Buy,Spot,4925,MT,2854.2415,2842.2567,USD,14057139.39,Settled
+TRD-000103,2024-03-08,2024-03-10,Zinc,ZN,Base Metals,BM-HEDGE-01,T. Vasquez,HSBC Metals,Sell,Spot,4275,MT,2776.9047,2779.4939,USD,11871267.59,Confirmed
+TRD-000104,2024-11-06,2024-11-08,Silver,XAG,Precious Metals,PM-PROP-01,R. Nakamura,Morgan Stanley,Buy,Forward,19100,troy oz,29.2586,29.1971,USD,558839.26,Confirmed
+TRD-000105,2024-10-30,2025-01-28,Aluminium,AL,Base Metals,BM-CLIENT-01,L. Chen,Standard Chartered,Sell,Spot,1850,MT,2344.8908,2340.1043,USD,4338047.98,Pending
+TRD-000106,2024-09-09,2024-10-09,Palladium,XPD,Precious Metals,PM-PROP-01,J. Kowalski,Goldman Sachs,Sell,Forward,39100,troy oz,1039.8762,1036.0939,USD,40659159.42,Settled
+TRD-000107,2024-05-09,2024-05-11,Copper,HG,Base Metals,BM-PROP-01,S. Okonkwo,Goldman Sachs,Sell,Spot,2000,lbs,4.231,4.2341,USD,8462.0,Pending
+TRD-000108,2024-01-23,2024-01-25,Silver,XAG,Precious Metals,PM-PROP-01,R. Nakamura,JPMorgan Commodities,Sell,Spot,11100,troy oz,29.2127,29.2014,USD,324260.97,Pending
+TRD-000109,2024-04-22,2024-04-24,Silver,XAG,Precious Metals,PM-PROP-01,T. Vasquez,Goldman Sachs,Buy,Spot,2600,troy oz,29.3021,29.2251,USD,76185.46,Confirmed
+TRD-000110,2024-03-22,2024-03-24,Copper,HG,Base Metals,BM-PROP-01,L. Chen,Deutsche Bank,Sell,Forward,1825,lbs,4.1216,4.1209,USD,7521.92,Cancelled
+TRD-000111,2024-05-27,2024-05-29,Gold,XAU,Precious Metals,PM-PROP-01,M. Patel,Scotiabank,Buy,Forward,39300,troy oz,2454.7153,2454.6512,USD,96470311.29,Confirmed
+TRD-000112,2024-04-03,2024-04-08,Zinc,ZN,Base Metals,BM-PROP-01,J. Kowalski,Deutsche Bank,Sell,Spot,1475,MT,2820.4505,2809.1231,USD,4160164.49,Confirmed
+TRD-000113,2024-11-04,2024-12-04,Silver,XAG,Precious Metals,PM-HEDGE-01,R. Nakamura,Standard Chartered,Sell,Spot,32800,troy oz,28.2512,28.2276,USD,926639.36,Settled
+TRD-000114,2024-09-17,2024-09-19,Nickel,NI,Base Metals,BM-CLIENT-01,M. Patel,Deutsche Bank,Buy,Spot,700,MT,17403.2118,17389.2456,USD,12182248.26,Settled
+TRD-000115,2024-08-27,2024-08-29,Aluminium,AL,Base Metals,BM-PROP-01,R. Nakamura,UBS AG,Buy,Forward,4075,MT,2344.705,2346.2129,USD,9554672.88,Pending
+TRD-000116,2024-03-14,2024-03-16,Platinum,XPT,Precious Metals,PM-PROP-01,S. Okonkwo,Morgan Stanley,Buy,Forward,8900,troy oz,958.5598,956.0849,USD,8531182.22,Confirmed
+TRD-000117,2024-08-20,2024-11-18,Nickel,NI,Base Metals,BM-CLIENT-01,A. Dubois,Goldman Sachs,Buy,Spot,2825,MT,17219.8092,17178.2431,USD,48645960.99,Confirmed
+TRD-000118,2024-11-27,2024-12-02,Silver,XAG,Precious Metals,PM-HEDGE-01,M. Patel,Goldman Sachs,Sell,Spot,18900,troy oz,27.2923,27.1822,USD,515824.47,Confirmed
+TRD-000119,2024-01-31,2024-02-05,Zinc,ZN,Base Metals,BM-HEDGE-01,S. Okonkwo,Scotiabank,Buy,Spot,3675,MT,2918.4086,2914.534,USD,10725151.61,Confirmed
+TRD-000120,2024-03-01,2024-03-31,Aluminium,AL,Base Metals,BM-CLIENT-01,S. Okonkwo,UBS AG,Buy,Forward,275,MT,2498.0733,2485.8011,USD,686970.16,Confirmed
+TRD-000121,2024-10-21,2024-10-23,Copper,HG,Base Metals,BM-HEDGE-01,P. O'Brien,JPMorgan Commodities,Sell,Spot,350,lbs,4.2185,4.2242,USD,1476.47,Confirmed
+TRD-000122,2024-02-28,2024-03-29,Platinum,XPT,Precious Metals,PM-HEDGE-01,P. O'Brien,Standard Chartered,Sell,Spot,47000,troy oz,998.6161,996.034,USD,46934956.7,Confirmed
+TRD-000123,2024-09-26,2024-12-25,Silver,XAG,Precious Metals,PM-HEDGE-01,M. Patel,Morgan Stanley,Buy,Forward,41700,troy oz,29.4427,29.3312,USD,1227760.59,Pending
+TRD-000124,2024-09-17,2024-09-19,Aluminium,AL,Base Metals,BM-PROP-01,L. Chen,Standard Chartered,Sell,Swap,1375,MT,2374.994,2371.6644,USD,3265616.75,Confirmed
+TRD-000125,2024-12-30,2025-01-29,Copper,HG,Base Metals,BM-PROP-01,S. Okonkwo,Goldman Sachs,Buy,Forward,3375,lbs,4.3068,4.2891,USD,14535.45,Confirmed
+TRD-000126,2024-04-29,2024-07-28,Platinum,XPT,Precious Metals,PM-PROP-01,T. Vasquez,Goldman Sachs,Sell,Forward,21100,troy oz,973.5635,973.892,USD,20542189.85,Confirmed
+TRD-000127,2024-06-20,2024-06-22,Nickel,NI,Base Metals,BM-PROP-01,T. Vasquez,TD Securities,Buy,Spot,3025,MT,18399.59,18314.7941,USD,55658759.75,Settled
+TRD-000128,2024-10-28,2024-10-30,Zinc,ZN,Base Metals,BM-CLIENT-01,T. Vasquez,UBS AG,Buy,Option,3875,MT,2884.0072,2888.7295,USD,11175527.9,Confirmed
+TRD-000129,2024-03-29,2024-03-31,Silver,XAG,Precious Metals,PM-CLIENT-01,P. O'Brien,HSBC Metals,Sell,Spot,8300,troy oz,27.3575,27.314,USD,227067.25,Settled
+TRD-000130,2024-09-06,2024-09-08,Palladium,XPD,Precious Metals,PM-HEDGE-01,R. Nakamura,Citibank NA,Sell,Spot,20300,troy oz,1046.2296,1041.0642,USD,21238460.88,Confirmed
+TRD-000131,2024-08-28,2024-08-30,Silver,XAG,Precious Metals,PM-CLIENT-01,T. Vasquez,TD Securities,Sell,Forward,14700,troy oz,27.439,27.4672,USD,403353.3,Pending
+TRD-000132,2024-07-03,2024-07-05,Silver,XAG,Precious Metals,PM-PROP-01,A. Dubois,HSBC Metals,Sell,Spot,28100,troy oz,29.4551,29.4546,USD,827688.31,Confirmed
+TRD-000133,2024-11-25,2024-11-27,Zinc,ZN,Base Metals,BM-CLIENT-01,S. Okonkwo,JPMorgan Commodities,Buy,Forward,3200,MT,2696.4905,2691.0402,USD,8628769.6,Confirmed
+TRD-000134,2024-10-25,2024-10-27,Aluminium,AL,Base Metals,BM-PROP-01,J. Kowalski,Deutsche Bank,Sell,Spot,550,MT,2494.4607,2490.271,USD,1371953.39,Settled
+TRD-000135,2024-10-04,2024-10-06,Gold,XAU,Precious Metals,PM-CLIENT-01,M. Patel,Goldman Sachs,Sell,Forward,900,troy oz,2293.0559,2292.1078,USD,2063750.31,Pending
+TRD-000136,2024-02-01,2024-02-03,Aluminium,AL,Base Metals,BM-PROP-01,T. Vasquez,Morgan Stanley,Buy,Option,4125,MT,2468.1472,2461.2734,USD,10181107.2,Confirmed
+TRD-000137,2024-11-25,2024-11-27,Platinum,XPT,Precious Metals,PM-PROP-01,A. Dubois,Barclays Metals,Buy,Option,2300,troy oz,959.9582,959.7574,USD,2207903.86,Confirmed
+TRD-000138,2024-01-26,2024-04-25,Nickel,NI,Base Metals,BM-HEDGE-01,M. Patel,UBS AG,Buy,Option,2300,MT,16964.9169,16959.431,USD,39019308.87,Confirmed
+TRD-000139,2024-11-12,2024-11-17,Zinc,ZN,Base Metals,BM-CLIENT-01,A. Dubois,HSBC Metals,Sell,Forward,1200,MT,2756.5045,2754.9303,USD,3307805.4,Pending
+TRD-000140,2024-05-09,2024-06-08,Silver,XAG,Precious Metals,PM-HEDGE-01,T. Vasquez,Goldman Sachs,Buy,Spot,5300,troy oz,27.9141,27.9122,USD,147944.73,Pending
+TRD-000141,2024-11-14,2024-11-16,Platinum,XPT,Precious Metals,PM-CLIENT-01,J. Kowalski,HSBC Metals,Sell,Forward,37300,troy oz,975.837,974.8187,USD,36398720.1,Pending
+TRD-000142,2024-04-24,2024-04-26,Zinc,ZN,Base Metals,BM-HEDGE-01,R. Nakamura,UBS AG,Sell,Spot,3900,MT,2695.849,2699.9783,USD,10513811.1,Confirmed
+TRD-000143,2024-04-19,2024-07-18,Gold,XAU,Precious Metals,PM-CLIENT-01,S. Okonkwo,Barclays Metals,Sell,Spot,19000,troy oz,2334.8138,2338.2318,USD,44361462.2,Confirmed
+TRD-000144,2024-07-18,2024-07-20,Aluminium,AL,Base Metals,BM-CLIENT-01,M. Patel,JPMorgan Commodities,Buy,Spot,175,MT,2564.6442,2562.8274,USD,448812.74,Settled
+TRD-000145,2024-07-24,2024-10-22,Nickel,NI,Base Metals,BM-PROP-01,T. Vasquez,Standard Chartered,Buy,Spot,3150,MT,18301.2027,18228.8381,USD,57648788.51,Settled
+TRD-000146,2024-08-16,2024-11-14,Nickel,NI,Base Metals,BM-PROP-01,S. Okonkwo,UBS AG,Sell,Option,425,MT,17301.2289,17232.9943,USD,7353022.28,Confirmed
+TRD-000147,2024-04-10,2024-04-12,Silver,XAG,Precious Metals,PM-PROP-01,S. Okonkwo,Goldman Sachs,Sell,Forward,1400,troy oz,29.3447,29.3276,USD,41082.58,Settled
+TRD-000148,2024-10-11,2025-01-09,Silver,XAG,Precious Metals,PM-HEDGE-01,M. Patel,Standard Chartered,Sell,Forward,27000,troy oz,29.2334,29.1238,USD,789301.8,Cancelled
+TRD-000149,2024-11-29,2025-02-27,Silver,XAG,Precious Metals,PM-HEDGE-01,J. Kowalski,HSBC Metals,Buy,Forward,6600,troy oz,28.5182,28.5495,USD,188220.12,Confirmed
+TRD-000150,2024-04-25,2024-04-27,Copper,HG,Base Metals,BM-PROP-01,A. Dubois,HSBC Metals,Sell,Swap,1450,lbs,4.3375,4.3304,USD,6289.38,Confirmed
+TRD-000151,2024-08-06,2024-09-05,Copper,HG,Base Metals,BM-PROP-01,S. Okonkwo,Morgan Stanley,Buy,Forward,3225,lbs,4.1725,4.1639,USD,13456.31,Pending
+TRD-000152,2024-01-31,2024-02-02,Aluminium,AL,Base Metals,BM-CLIENT-01,P. O'Brien,Goldman Sachs,Sell,Forward,4125,MT,2355.3073,2347.3996,USD,9715642.61,Pending
+TRD-000153,2024-07-26,2024-10-24,Nickel,NI,Base Metals,BM-CLIENT-01,A. Dubois,TD Securities,Buy,Option,3100,MT,18350.2827,18299.1378,USD,56885876.37,Confirmed
+TRD-000154,2024-11-12,2024-11-17,Gold,XAU,Precious Metals,PM-PROP-01,R. Nakamura,BNP Paribas,Sell,Forward,10500,troy oz,2346.7403,2346.299,USD,24640773.15,Cancelled
+TRD-000155,2024-04-03,2024-04-05,Aluminium,AL,Base Metals,BM-HEDGE-01,T. Vasquez,Citibank NA,Sell,Spot,700,MT,2450.8672,2453.6701,USD,1715607.04,Confirmed
+TRD-000156,2024-10-02,2024-11-01,Gold,XAU,Precious Metals,PM-HEDGE-01,R. Nakamura,Citibank NA,Buy,Option,49300,troy oz,2341.3346,2330.7617,USD,115427795.78,Settled
+TRD-000157,2024-12-02,2024-12-07,Nickel,NI,Base Metals,BM-CLIENT-01,T. Vasquez,Citibank NA,Buy,Spot,3200,MT,18177.0539,18163.3824,USD,58166572.48,Confirmed
+TRD-000158,2024-02-06,2024-02-08,Aluminium,AL,Base Metals,BM-PROP-01,M. Patel,Deutsche Bank,Sell,Spot,4200,MT,2443.9918,2448.7491,USD,10264765.56,Confirmed
+TRD-000159,2024-09-19,2024-09-24,Copper,HG,Base Metals,BM-CLIENT-01,A. Dubois,HSBC Metals,Buy,Forward,2575,lbs,4.0918,4.0944,USD,10536.39,Confirmed
+TRD-000160,2024-07-19,2024-08-18,Nickel,NI,Base Metals,BM-CLIENT-01,R. Nakamura,Barclays Metals,Buy,Swap,775,MT,17829.1899,17815.6976,USD,13817622.17,Settled
+TRD-000161,2024-12-31,2025-01-05,Platinum,XPT,Precious Metals,PM-PROP-01,T. Vasquez,Barclays Metals,Buy,Spot,2400,troy oz,980.3323,980.0076,USD,2352797.52,Confirmed
+TRD-000162,2024-08-16,2024-08-18,Platinum,XPT,Precious Metals,PM-HEDGE-01,T. Vasquez,BNP Paribas,Sell,Forward,31600,troy oz,971.0134,969.5095,USD,30684023.44,Confirmed
+TRD-000163,2024-09-20,2024-09-22,Nickel,NI,Base Metals,BM-PROP-01,J. Kowalski,Goldman Sachs,Sell,Forward,2675,MT,17858.9494,17804.1612,USD,47772689.65,Confirmed
+TRD-000164,2024-02-07,2024-03-08,Palladium,XPD,Precious Metals,PM-CLIENT-01,J. Kowalski,Goldman Sachs,Sell,Spot,26900,troy oz,1050.8448,1047.9471,USD,28267725.12,Settled
+TRD-000165,2024-01-15,2024-01-20,Silver,XAG,Precious Metals,PM-PROP-01,T. Vasquez,BNP Paribas,Sell,Forward,7800,troy oz,27.9934,27.969,USD,218348.52,Pending
+TRD-000166,2024-05-29,2024-06-28,Platinum,XPT,Precious Metals,PM-CLIENT-01,S. Okonkwo,TD Securities,Sell,Forward,34000,troy oz,963.0439,962.8549,USD,32743492.6,Settled
+TRD-000167,2024-09-11,2024-12-10,Aluminium,AL,Base Metals,BM-CLIENT-01,L. Chen,JPMorgan Commodities,Sell,Forward,4625,MT,2514.9912,2516.6375,USD,11631834.3,Confirmed
+TRD-000168,2024-07-25,2024-10-23,Palladium,XPD,Precious Metals,PM-HEDGE-01,A. Dubois,JPMorgan Commodities,Sell,Spot,36100,troy oz,1019.7143,1019.2642,USD,36811686.23,Confirmed
+TRD-000169,2024-09-04,2024-09-06,Zinc,ZN,Base Metals,BM-HEDGE-01,A. Dubois,BNP Paribas,Buy,Spot,1850,MT,2744.3329,2741.3267,USD,5077015.87,Confirmed
+TRD-000170,2024-07-12,2024-08-11,Palladium,XPD,Precious Metals,PM-CLIENT-01,L. Chen,Scotiabank,Buy,Forward,7100,troy oz,1072.8546,1070.598,USD,7617267.66,Pending
+TRD-000171,2024-06-17,2024-06-19,Palladium,XPD,Precious Metals,PM-CLIENT-01,J. Kowalski,Barclays Metals,Sell,Spot,17000,troy oz,1011.4434,1008.0208,USD,17194537.8,Cancelled
+TRD-000172,2024-12-06,2024-12-11,Platinum,XPT,Precious Metals,PM-HEDGE-01,M. Patel,Morgan Stanley,Sell,Spot,38800,troy oz,997.2609,994.7528,USD,38693722.92,Confirmed
+TRD-000173,2024-10-25,2024-10-27,Gold,XAU,Precious Metals,PM-PROP-01,A. Dubois,Scotiabank,Sell,Forward,1900,troy oz,2450.2657,2451.9718,USD,4655504.83,Confirmed
+TRD-000174,2024-07-23,2024-07-28,Silver,XAG,Precious Metals,PM-HEDGE-01,T. Vasquez,JPMorgan Commodities,Sell,Option,27900,troy oz,29.8622,29.8939,USD,833155.38,Confirmed
+TRD-000175,2024-04-26,2024-07-25,Silver,XAG,Precious Metals,PM-HEDGE-01,A. Dubois,Goldman Sachs,Buy,Spot,13200,troy oz,28.3931,28.3829,USD,374788.92,Pending
+TRD-000176,2024-10-17,2024-10-22,Palladium,XPD,Precious Metals,PM-PROP-01,S. Okonkwo,TD Securities,Sell,Forward,4500,troy oz,1050.8615,1051.6045,USD,4728876.75,Confirmed
+TRD-000177,2024-07-05,2024-07-10,Palladium,XPD,Precious Metals,PM-PROP-01,J. Kowalski,JPMorgan Commodities,Sell,Swap,38600,troy oz,1022.3458,1022.2297,USD,39462547.88,Pending
+TRD-000178,2024-03-26,2024-03-31,Palladium,XPD,Precious Metals,PM-PROP-01,A. Dubois,UBS AG,Sell,Forward,20800,troy oz,1032.2591,1029.7147,USD,21470989.28,Pending
+TRD-000179,2024-12-09,2024-12-11,Palladium,XPD,Precious Metals,PM-PROP-01,T. Vasquez,Barclays Metals,Sell,Spot,31100,troy oz,1047.201,1045.2728,USD,32567951.1,Settled
+TRD-000180,2024-02-28,2024-03-29,Palladium,XPD,Precious Metals,PM-PROP-01,J. Kowalski,Barclays Metals,Sell,Spot,36100,troy oz,1046.4442,1044.4085,USD,37776635.62,Settled
+TRD-000181,2024-04-17,2024-04-19,Palladium,XPD,Precious Metals,PM-CLIENT-01,T. Vasquez,HSBC Metals,Sell,Spot,26700,troy oz,1031.3722,1031.9524,USD,27537637.74,Settled
+TRD-000182,2024-11-21,2024-11-23,Nickel,NI,Base Metals,BM-PROP-01,A. Dubois,BNP Paribas,Buy,Forward,2925,MT,17570.6606,17523.1837,USD,51394182.25,Confirmed
+TRD-000183,2024-06-05,2024-07-05,Copper,HG,Base Metals,BM-PROP-01,J. Kowalski,HSBC Metals,Sell,Forward,2725,lbs,3.9799,3.9728,USD,10845.23,Cancelled
+TRD-000184,2024-07-24,2024-07-29,Nickel,NI,Base Metals,BM-PROP-01,T. Vasquez,Deutsche Bank,Sell,Spot,875,MT,17011.7815,16939.9673,USD,14885308.81,Confirmed
+TRD-000185,2024-09-06,2024-09-08,Platinum,XPT,Precious Metals,PM-CLIENT-01,L. Chen,Scotiabank,Sell,Forward,27600,troy oz,951.426,948.4904,USD,26259357.6,Settled
+TRD-000186,2024-10-31,2024-11-30,Copper,HG,Base Metals,BM-HEDGE-01,L. Chen,BNP Paribas,Buy,Spot,1475,lbs,4.0962,4.0999,USD,6041.89,Settled
+TRD-000187,2024-10-28,2024-11-27,Gold,XAU,Precious Metals,PM-CLIENT-01,J. Kowalski,TD Securities,Buy,Spot,45300,troy oz,2408.8339,2412.5226,USD,109120175.67,Confirmed
+TRD-000188,2024-02-01,2024-02-06,Gold,XAU,Precious Metals,PM-PROP-01,S. Okonkwo,Barclays Metals,Buy,Forward,27700,troy oz,2343.6733,2335.6563,USD,64919750.41,Cancelled
+TRD-000189,2024-08-16,2024-09-15,Palladium,XPD,Precious Metals,PM-CLIENT-01,L. Chen,Deutsche Bank,Sell,Spot,34500,troy oz,1064.6644,1060.2814,USD,36730921.8,Confirmed
+TRD-000190,2024-05-06,2024-08-04,Gold,XAU,Precious Metals,PM-CLIENT-01,P. O'Brien,Barclays Metals,Sell,Spot,28500,troy oz,2392.9892,2392.0063,USD,68200192.2,Confirmed
+TRD-000191,2024-04-17,2024-04-19,Zinc,ZN,Base Metals,BM-HEDGE-01,S. Okonkwo,TD Securities,Sell,Spot,4850,MT,2764.2403,2765.4089,USD,13406565.46,Settled
+TRD-000192,2024-04-05,2024-04-10,Zinc,ZN,Base Metals,BM-HEDGE-01,R. Nakamura,HSBC Metals,Sell,Forward,1325,MT,2740.1552,2728.0004,USD,3630705.64,Confirmed
+TRD-000193,2024-07-11,2024-07-16,Palladium,XPD,Precious Metals,PM-PROP-01,L. Chen,TD Securities,Buy,Option,30900,troy oz,1067.5061,1068.2356,USD,32985938.49,Confirmed
+TRD-000194,2024-01-11,2024-01-13,Aluminium,AL,Base Metals,BM-HEDGE-01,L. Chen,BNP Paribas,Buy,Forward,4750,MT,2565.4922,2557.1041,USD,12186087.95,Pending
+TRD-000195,2024-06-20,2024-07-20,Palladium,XPD,Precious Metals,PM-HEDGE-01,A. Dubois,JPMorgan Commodities,Sell,Spot,14500,troy oz,1033.8901,1031.2696,USD,14991406.45,Confirmed
+TRD-000196,2024-03-12,2024-06-10,Nickel,NI,Base Metals,BM-HEDGE-01,L. Chen,BNP Paribas,Buy,Spot,2050,MT,17462.2667,17446.6082,USD,35797646.73,Confirmed
+TRD-000197,2024-10-25,2024-10-27,Copper,HG,Base Metals,BM-CLIENT-01,T. Vasquez,Barclays Metals,Buy,Spot,2125,lbs,4.0212,4.0058,USD,8545.05,Pending
+TRD-000198,2024-12-17,2025-03-17,Aluminium,AL,Base Metals,BM-HEDGE-01,S. Okonkwo,Standard Chartered,Sell,Spot,3150,MT,2493.5727,2484.7151,USD,7854754.01,Pending
+TRD-000199,2024-02-13,2024-03-14,Nickel,NI,Base Metals,BM-PROP-01,L. Chen,HSBC Metals,Buy,Forward,500,MT,16698.9862,16684.1916,USD,8349493.1,Pending
+TRD-000200,2024-12-27,2025-01-01,Gold,XAU,Precious Metals,PM-PROP-01,P. O'Brien,Scotiabank,Sell,Forward,31700,troy oz,2315.8173,2320.2022,USD,73411408.41,Confirmed
+TRD-000201,2024-07-24,2024-07-26,Copper,HG,Base Metals,BM-CLIENT-01,M. Patel,HSBC Metals,Sell,Option,4475,lbs,4.169,4.1509,USD,18656.27,Confirmed
+TRD-000202,2024-07-01,2024-07-03,Palladium,XPD,Precious Metals,PM-PROP-01,L. Chen,BNP Paribas,Buy,Spot,20400,troy oz,1026.4328,1025.5691,USD,20939229.12,Confirmed
+TRD-000203,2024-01-24,2024-01-26,Silver,XAG,Precious Metals,PM-CLIENT-01,S. Okonkwo,HSBC Metals,Sell,Spot,19400,troy oz,28.1754,28.23,USD,546602.76,Confirmed
+TRD-000204,2024-08-26,2024-09-25,Zinc,ZN,Base Metals,BM-CLIENT-01,T. Vasquez,JPMorgan Commodities,Buy,Spot,625,MT,2946.293,2933.6522,USD,1841433.12,Confirmed
+TRD-000205,2024-07-19,2024-08-18,Silver,XAG,Precious Metals,PM-CLIENT-01,L. Chen,Goldman Sachs,Buy,Swap,1700,troy oz,28.6868,28.681,USD,48767.56,Confirmed
+TRD-000206,2024-08-02,2024-08-04,Zinc,ZN,Base Metals,BM-PROP-01,P. O'Brien,BNP Paribas,Sell,Forward,3650,MT,2822.9353,2817.9083,USD,10303713.85,Confirmed
+TRD-000207,2024-09-05,2024-09-07,Silver,XAG,Precious Metals,PM-CLIENT-01,P. O'Brien,UBS AG,Buy,Spot,11900,troy oz,27.4459,27.3534,USD,326606.21,Confirmed
+TRD-000208,2024-12-18,2024-12-20,Copper,HG,Base Metals,BM-HEDGE-01,P. O'Brien,HSBC Metals,Sell,Spot,2425,lbs,4.0988,4.0902,USD,9939.59,Settled
+TRD-000209,2024-02-22,2024-02-24,Copper,HG,Base Metals,BM-PROP-01,M. Patel,HSBC Metals,Buy,Forward,2450,lbs,4.0546,4.0537,USD,9933.77,Confirmed
+TRD-000210,2024-09-16,2024-09-18,Copper,HG,Base Metals,BM-HEDGE-01,P. O'Brien,HSBC Metals,Buy,Spot,575,lbs,3.9925,3.9849,USD,2295.69,Confirmed
+TRD-000211,2024-03-07,2024-04-06,Aluminium,AL,Base Metals,BM-CLIENT-01,M. Patel,BNP Paribas,Sell,Spot,2100,MT,2476.2391,2474.0207,USD,5200102.11,Settled
+TRD-000212,2024-05-01,2024-07-30,Palladium,XPD,Precious Metals,PM-CLIENT-01,M. Patel,Standard Chartered,Sell,Spot,7200,troy oz,1038.9832,1037.4769,USD,7480679.04,Confirmed
+TRD-000213,2024-12-12,2024-12-14,Zinc,ZN,Base Metals,BM-HEDGE-01,M. Patel,Standard Chartered,Sell,Forward,1600,MT,2759.3723,2761.115,USD,4414995.68,Confirmed
+TRD-000214,2024-09-30,2024-10-02,Zinc,ZN,Base Metals,BM-HEDGE-01,L. Chen,TD Securities,Buy,Spot,2775,MT,2789.4481,2783.2624,USD,7740718.48,Confirmed
+TRD-000215,2024-07-29,2024-10-27,Zinc,ZN,Base Metals,BM-HEDGE-01,P. O'Brien,UBS AG,Buy,Spot,3150,MT,2854.48,2854.5882,USD,8991612.0,Confirmed
+TRD-000216,2024-05-09,2024-08-07,Palladium,XPD,Precious Metals,PM-CLIENT-01,A. Dubois,BNP Paribas,Sell,Swap,1400,troy oz,1077.5259,1078.0999,USD,1508536.26,Confirmed
+TRD-000217,2024-12-24,2024-12-26,Zinc,ZN,Base Metals,BM-CLIENT-01,P. O'Brien,HSBC Metals,Sell,Forward,1550,MT,2845.865,2837.3341,USD,4411090.75,Confirmed
+TRD-000218,2024-10-15,2024-11-14,Nickel,NI,Base Metals,BM-CLIENT-01,R. Nakamura,BNP Paribas,Sell,Forward,4450,MT,17573.4763,17511.5721,USD,78201969.53,Settled
+TRD-000219,2024-06-27,2024-09-25,Silver,XAG,Precious Metals,PM-PROP-01,P. O'Brien,UBS AG,Buy,Forward,8600,troy oz,29.0423,28.9694,USD,249763.78,Cancelled
+TRD-000220,2024-01-09,2024-01-11,Zinc,ZN,Base Metals,BM-PROP-01,S. Okonkwo,UBS AG,Buy,Spot,3275,MT,2734.4631,2732.4467,USD,8955366.65,Cancelled
+TRD-000221,2024-07-31,2024-08-05,Nickel,NI,Base Metals,BM-PROP-01,R. Nakamura,JPMorgan Commodities,Buy,Option,550,MT,18292.6913,18235.9582,USD,10060980.21,Confirmed
+TRD-000222,2024-12-12,2024-12-14,Palladium,XPD,Precious Metals,PM-CLIENT-01,M. Patel,Scotiabank,Sell,Spot,22500,troy oz,1047.6038,1047.4971,USD,23571085.5,Settled
+TRD-000223,2024-04-29,2024-07-28,Silver,XAG,Precious Metals,PM-CLIENT-01,T. Vasquez,Citibank NA,Buy,Spot,9000,troy oz,27.7975,27.7702,USD,250177.5,Settled
+TRD-000224,2024-11-06,2024-11-11,Platinum,XPT,Precious Metals,PM-PROP-01,J. Kowalski,BNP Paribas,Buy,Spot,31500,troy oz,934.8011,933.8608,USD,29446234.65,Confirmed
+TRD-000225,2024-02-15,2024-03-16,Copper,HG,Base Metals,BM-CLIENT-01,M. Patel,JPMorgan Commodities,Buy,Spot,3450,lbs,3.9822,3.9847,USD,13738.59,Pending
+TRD-000226,2024-08-13,2024-09-12,Nickel,NI,Base Metals,BM-CLIENT-01,S. Okonkwo,Morgan Stanley,Buy,Spot,2525,MT,17372.931,17305.1187,USD,43866650.77,Pending
+TRD-000227,2024-03-01,2024-05-30,Copper,HG,Base Metals,BM-CLIENT-01,S. Okonkwo,Barclays Metals,Buy,Spot,775,lbs,3.9952,3.9981,USD,3096.28,Confirmed
+TRD-000228,2024-10-02,2024-10-07,Platinum,XPT,Precious Metals,PM-CLIENT-01,S. Okonkwo,Standard Chartered,Buy,Forward,32600,troy oz,950.5589,949.2039,USD,30988220.14,Confirmed
+TRD-000229,2024-02-08,2024-02-10,Nickel,NI,Base Metals,BM-CLIENT-01,T. Vasquez,Deutsche Bank,Buy,Spot,3125,MT,18303.3003,18290.7234,USD,57197813.44,Pending
+TRD-000230,2024-11-14,2024-11-19,Zinc,ZN,Base Metals,BM-CLIENT-01,J. Kowalski,JPMorgan Commodities,Buy,Forward,3625,MT,2705.5959,2706.831,USD,9807785.14,Confirmed
+TRD-000231,2024-11-25,2024-12-25,Copper,HG,Base Metals,BM-PROP-01,M. Patel,JPMorgan Commodities,Sell,Forward,4925,lbs,4.2455,4.2506,USD,20909.09,Settled
+TRD-000232,2024-01-31,2024-04-30,Aluminium,AL,Base Metals,BM-CLIENT-01,L. Chen,JPMorgan Commodities,Sell,Spot,1400,MT,2444.9158,2435.6348,USD,3422882.12,Settled
+TRD-000233,2024-07-08,2024-07-10,Gold,XAU,Precious Metals,PM-HEDGE-01,L. Chen,Citibank NA,Sell,Option,4500,troy oz,2432.2476,2435.1169,USD,10945114.2,Settled
+TRD-000234,2024-11-04,2024-11-06,Aluminium,AL,Base Metals,BM-CLIENT-01,A. Dubois,Goldman Sachs,Buy,Option,1325,MT,2483.3904,2478.457,USD,3290492.28,Confirmed
+TRD-000235,2024-07-29,2024-07-31,Aluminium,AL,Base Metals,BM-CLIENT-01,P. O'Brien,Scotiabank,Buy,Spot,3300,MT,2475.8422,2467.8202,USD,8170279.26,Cancelled
+TRD-000236,2024-04-04,2024-04-06,Platinum,XPT,Precious Metals,PM-CLIENT-01,T. Vasquez,Standard Chartered,Buy,Forward,16500,troy oz,947.9161,945.3319,USD,15640615.65,Confirmed
+TRD-000237,2024-10-24,2024-10-29,Copper,HG,Base Metals,BM-CLIENT-01,R. Nakamura,TD Securities,Buy,Spot,4075,lbs,4.1435,4.1301,USD,16884.76,Cancelled
+TRD-000238,2024-01-03,2024-04-02,Aluminium,AL,Base Metals,BM-CLIENT-01,P. O'Brien,Citibank NA,Sell,Option,2950,MT,2358.7097,2350.3197,USD,6958193.61,Cancelled
+TRD-000239,2024-07-11,2024-07-13,Palladium,XPD,Precious Metals,PM-HEDGE-01,R. Nakamura,Morgan Stanley,Buy,Forward,17300,troy oz,1085.9915,1084.4761,USD,18787652.95,Settled
+TRD-000240,2024-11-26,2024-11-28,Gold,XAU,Precious Metals,PM-PROP-01,P. O'Brien,Citibank NA,Buy,Spot,44000,troy oz,2257.183,2261.6957,USD,99316052.0,Cancelled
+TRD-000241,2024-08-05,2024-08-07,Platinum,XPT,Precious Metals,PM-CLIENT-01,M. Patel,UBS AG,Sell,Spot,44900,troy oz,1017.2253,1016.6935,USD,45673415.97,Pending
+TRD-000242,2024-10-10,2025-01-08,Platinum,XPT,Precious Metals,PM-PROP-01,M. Patel,Scotiabank,Buy,Spot,35900,troy oz,959.6315,960.9399,USD,34450770.85,Confirmed
+TRD-000243,2024-06-11,2024-07-11,Silver,XAG,Precious Metals,PM-PROP-01,P. O'Brien,BNP Paribas,Buy,Forward,500,troy oz,29.1209,29.013,USD,14560.45,Confirmed
+TRD-000244,2024-10-02,2024-10-04,Silver,XAG,Precious Metals,PM-PROP-01,S. Okonkwo,Deutsche Bank,Buy,Spot,5300,troy oz,29.2792,29.1577,USD,155179.76,Settled
+TRD-000245,2024-04-12,2024-04-14,Platinum,XPT,Precious Metals,PM-CLIENT-01,S. Okonkwo,Deutsche Bank,Buy,Spot,500,troy oz,985.9948,982.9898,USD,492997.4,Pending
+TRD-000246,2024-03-04,2024-03-06,Nickel,NI,Base Metals,BM-PROP-01,S. Okonkwo,Citibank NA,Sell,Spot,800,MT,16886.9895,16870.023,USD,13509591.6,Confirmed
+TRD-000247,2024-07-23,2024-10-21,Silver,XAG,Precious Metals,PM-PROP-01,L. Chen,BNP Paribas,Sell,Spot,43400,troy oz,27.2124,27.1514,USD,1181018.16,Confirmed
+TRD-000248,2024-12-20,2024-12-25,Gold,XAU,Precious Metals,PM-PROP-01,R. Nakamura,UBS AG,Buy,Forward,25600,troy oz,2269.9371,2258.9948,USD,58110389.76,Confirmed
+TRD-000249,2024-05-03,2024-05-08,Zinc,ZN,Base Metals,BM-HEDGE-01,A. Dubois,Citibank NA,Buy,Spot,4950,MT,2922.7761,2927.2468,USD,14467741.7,Confirmed
+TRD-000250,2024-12-30,2025-01-01,Gold,XAU,Precious Metals,PM-HEDGE-01,S. Okonkwo,JPMorgan Commodities,Sell,Spot,25700,troy oz,2382.1562,2380.2141,USD,61221414.34,Confirmed
+TRD-000251,2024-05-27,2024-05-29,Silver,XAG,Precious Metals,PM-CLIENT-01,L. Chen,Scotiabank,Buy,Spot,20100,troy oz,28.6341,28.6037,USD,575545.41,Confirmed
+TRD-000252,2024-11-21,2024-12-21,Zinc,ZN,Base Metals,BM-PROP-01,J. Kowalski,Standard Chartered,Buy,Spot,2000,MT,2838.838,2830.4731,USD,5677676.0,Confirmed
+TRD-000253,2024-07-04,2024-07-06,Aluminium,AL,Base Metals,BM-CLIENT-01,J. Kowalski,UBS AG,Sell,Forward,4800,MT,2415.7695,2418.608,USD,11595693.6,Settled
+TRD-000254,2024-02-15,2024-02-17,Copper,HG,Base Metals,BM-CLIENT-01,J. Kowalski,TD Securities,Buy,Spot,3700,lbs,4.2448,4.2381,USD,15705.76,Settled
+TRD-000255,2024-04-23,2024-04-25,Platinum,XPT,Precious Metals,PM-HEDGE-01,J. Kowalski,Scotiabank,Buy,Spot,45800,troy oz,1008.3586,1006.7862,USD,46182823.88,Confirmed
+TRD-000256,2024-10-02,2024-10-04,Nickel,NI,Base Metals,BM-HEDGE-01,R. Nakamura,JPMorgan Commodities,Sell,Spot,250,MT,16933.7411,16938.1816,USD,4233435.27,Settled
+TRD-000257,2024-12-26,2025-03-26,Aluminium,AL,Base Metals,BM-PROP-01,P. O'Brien,HSBC Metals,Buy,Option,1150,MT,2560.8863,2548.4755,USD,2945019.25,Settled
+TRD-000258,2024-08-22,2024-08-24,Copper,HG,Base Metals,BM-HEDGE-01,A. Dubois,BNP Paribas,Sell,Spot,75,lbs,4.1801,4.172,USD,313.51,Pending
+TRD-000259,2024-12-19,2024-12-21,Nickel,NI,Base Metals,BM-HEDGE-01,J. Kowalski,Citibank NA,Buy,Spot,3500,MT,17987.871,17906.8108,USD,62957548.5,Confirmed
+TRD-000260,2024-01-02,2024-04-01,Gold,XAU,Precious Metals,PM-HEDGE-01,L. Chen,Deutsche Bank,Sell,Spot,37800,troy oz,2324.8904,2320.9246,USD,87880857.12,Confirmed
+TRD-000261,2024-07-19,2024-07-21,Gold,XAU,Precious Metals,PM-PROP-01,M. Patel,Goldman Sachs,Sell,Forward,11900,troy oz,2244.179,2242.8166,USD,26705730.1,Confirmed
+TRD-000262,2024-10-09,2024-10-11,Platinum,XPT,Precious Metals,PM-CLIENT-01,A. Dubois,JPMorgan Commodities,Sell,Forward,3200,troy oz,987.9327,989.0058,USD,3161384.64,Settled
+TRD-000263,2024-08-22,2024-08-24,Zinc,ZN,Base Metals,BM-CLIENT-01,M. Patel,Standard Chartered,Buy,Swap,1500,MT,2783.8538,2786.7722,USD,4175780.7,Confirmed
+TRD-000264,2024-08-13,2024-08-18,Nickel,NI,Base Metals,BM-HEDGE-01,M. Patel,HSBC Metals,Buy,Spot,2300,MT,16857.224,16836.2893,USD,38771615.2,Confirmed
+TRD-000265,2024-01-30,2024-02-01,Copper,HG,Base Metals,BM-CLIENT-01,R. Nakamura,Deutsche Bank,Buy,Spot,2100,lbs,4.2883,4.2894,USD,9005.43,Confirmed
+TRD-000266,2024-05-06,2024-05-08,Copper,HG,Base Metals,BM-HEDGE-01,S. Okonkwo,HSBC Metals,Buy,Spot,2900,lbs,4.332,4.3376,USD,12562.8,Confirmed
+TRD-000267,2024-05-22,2024-05-27,Palladium,XPD,Precious Metals,PM-PROP-01,M. Patel,Scotiabank,Buy,Forward,32300,troy oz,1036.3901,1036.5852,USD,33475400.23,Cancelled
+TRD-000268,2024-11-14,2024-11-16,Palladium,XPD,Precious Metals,PM-CLIENT-01,J. Kowalski,Standard Chartered,Sell,Spot,43400,troy oz,1011.7867,1007.1578,USD,43911542.78,Settled
+TRD-000269,2024-10-10,2024-10-15,Zinc,ZN,Base Metals,BM-CLIENT-01,S. Okonkwo,JPMorgan Commodities,Sell,Spot,4375,MT,2666.9289,2668.255,USD,11667813.94,Confirmed
+TRD-000270,2024-06-25,2024-09-23,Platinum,XPT,Precious Metals,PM-PROP-01,S. Okonkwo,Deutsche Bank,Sell,Spot,21100,troy oz,959.8804,959.9203,USD,20253476.44,Confirmed
+TRD-000271,2024-01-15,2024-01-20,Palladium,XPD,Precious Metals,PM-CLIENT-01,R. Nakamura,Deutsche Bank,Sell,Forward,18400,troy oz,1081.1048,1079.6012,USD,19892328.32,Confirmed
+TRD-000272,2024-06-06,2024-06-08,Gold,XAU,Precious Metals,PM-HEDGE-01,R. Nakamura,Goldman Sachs,Sell,Spot,39900,troy oz,2455.0749,2443.0047,USD,97957488.51,Cancelled
+TRD-000273,2024-06-26,2024-09-24,Platinum,XPT,Precious Metals,PM-PROP-01,P. O'Brien,UBS AG,Buy,Forward,27400,troy oz,959.0574,954.633,USD,26278172.76,Settled
+TRD-000274,2024-06-19,2024-07-19,Platinum,XPT,Precious Metals,PM-PROP-01,R. Nakamura,Goldman Sachs,Sell,Swap,37800,troy oz,960.43,962.1644,USD,36304254.0,Confirmed
+TRD-000275,2024-08-09,2024-08-11,Palladium,XPD,Precious Metals,PM-HEDGE-01,T. Vasquez,Scotiabank,Buy,Spot,4700,troy oz,1048.5045,1048.9958,USD,4927971.15,Confirmed
+TRD-000276,2024-09-02,2024-12-01,Palladium,XPD,Precious Metals,PM-PROP-01,S. Okonkwo,HSBC Metals,Sell,Spot,41100,troy oz,1015.1517,1016.1333,USD,41722734.87,Settled
+TRD-000277,2024-09-25,2024-12-24,Aluminium,AL,Base Metals,BM-PROP-01,S. Okonkwo,BNP Paribas,Buy,Spot,2550,MT,2558.9318,2558.2712,USD,6525276.09,Settled
+TRD-000278,2024-08-15,2024-08-17,Nickel,NI,Base Metals,BM-CLIENT-01,S. Okonkwo,Deutsche Bank,Sell,Spot,3600,MT,17900.4861,17862.5701,USD,64441749.96,Confirmed
+TRD-000279,2024-05-07,2024-08-05,Copper,HG,Base Metals,BM-PROP-01,J. Kowalski,Standard Chartered,Sell,Option,4500,lbs,3.9566,3.9432,USD,17804.7,Pending
+TRD-000280,2024-03-15,2024-03-20,Palladium,XPD,Precious Metals,PM-CLIENT-01,S. Okonkwo,Morgan Stanley,Buy,Spot,38200,troy oz,1017.2041,1012.2676,USD,38857196.62,Settled
+TRD-000281,2024-08-28,2024-09-02,Silver,XAG,Precious Metals,PM-CLIENT-01,M. Patel,BNP Paribas,Buy,Forward,10800,troy oz,27.1198,27.1075,USD,292893.84,Confirmed
+TRD-000282,2024-10-28,2024-10-30,Zinc,ZN,Base Metals,BM-HEDGE-01,T. Vasquez,Goldman Sachs,Sell,Spot,3175,MT,2909.499,2907.6746,USD,9237659.32,Pending
+TRD-000283,2024-11-20,2024-11-22,Palladium,XPD,Precious Metals,PM-PROP-01,M. Patel,HSBC Metals,Sell,Spot,1800,troy oz,1081.2293,1081.4154,USD,1946212.74,Confirmed
+TRD-000284,2024-02-23,2024-03-24,Zinc,ZN,Base Metals,BM-PROP-01,T. Vasquez,BNP Paribas,Sell,Forward,600,MT,2930.425,2923.7136,USD,1758255.0,Confirmed
+TRD-000285,2024-11-07,2024-11-09,Platinum,XPT,Precious Metals,PM-CLIENT-01,A. Dubois,Morgan Stanley,Buy,Swap,17000,troy oz,937.0583,936.2485,USD,15929991.1,Confirmed
+TRD-000286,2024-02-06,2024-02-11,Palladium,XPD,Precious Metals,PM-PROP-01,P. O'Brien,HSBC Metals,Sell,Spot,43100,troy oz,1058.0919,1057.5358,USD,45603760.89,Confirmed
+TRD-000287,2024-03-11,2024-03-13,Nickel,NI,Base Metals,BM-PROP-01,M. Patel,JPMorgan Commodities,Sell,Swap,4100,MT,17009.5057,16987.1677,USD,69738973.37,Settled
+TRD-000288,2024-07-09,2024-07-11,Nickel,NI,Base Metals,BM-HEDGE-01,S. Okonkwo,TD Securities,Buy,Spot,2500,MT,17760.1596,17748.2662,USD,44400399.0,Confirmed
+TRD-000289,2024-07-08,2024-07-10,Nickel,NI,Base Metals,BM-HEDGE-01,M. Patel,HSBC Metals,Buy,Spot,3625,MT,18141.9016,18089.8878,USD,65764393.3,Pending
+TRD-000290,2024-06-12,2024-07-12,Zinc,ZN,Base Metals,BM-CLIENT-01,T. Vasquez,Goldman Sachs,Sell,Swap,2500,MT,2684.5966,2677.0754,USD,6711491.5,Settled
+TRD-000291,2024-02-27,2024-03-03,Nickel,NI,Base Metals,BM-HEDGE-01,S. Okonkwo,HSBC Metals,Buy,Forward,4575,MT,18283.199,18204.8601,USD,83645635.42,Settled
+TRD-000292,2024-04-30,2024-05-02,Nickel,NI,Base Metals,BM-PROP-01,P. O'Brien,Citibank NA,Buy,Spot,825,MT,18128.5253,18039.8063,USD,14956033.37,Cancelled
+TRD-000293,2024-07-04,2024-07-06,Platinum,XPT,Precious Metals,PM-CLIENT-01,R. Nakamura,JPMorgan Commodities,Buy,Spot,46900,troy oz,1022.1917,1020.2588,USD,47940790.73,Confirmed
+TRD-000294,2024-10-28,2024-10-30,Gold,XAU,Precious Metals,PM-CLIENT-01,M. Patel,JPMorgan Commodities,Buy,Swap,7600,troy oz,2334.4112,2329.894,USD,17741525.12,Settled
+TRD-000295,2024-07-09,2024-07-14,Aluminium,AL,Base Metals,BM-HEDGE-01,S. Okonkwo,Goldman Sachs,Sell,Spot,3675,MT,2487.7436,2487.923,USD,9142457.73,Pending
+TRD-000296,2024-10-10,2024-10-12,Zinc,ZN,Base Metals,BM-PROP-01,J. Kowalski,UBS AG,Sell,Swap,325,MT,2865.554,2853.3439,USD,931305.05,Settled
+TRD-000297,2024-07-19,2024-07-24,Copper,HG,Base Metals,BM-HEDGE-01,A. Dubois,BNP Paribas,Buy,Swap,4400,lbs,4.297,4.2987,USD,18906.8,Confirmed
+TRD-000298,2024-10-25,2024-11-24,Aluminium,AL,Base Metals,BM-HEDGE-01,T. Vasquez,Barclays Metals,Sell,Spot,1225,MT,2495.0263,2485.6609,USD,3056407.22,Settled
+TRD-000299,2024-04-24,2024-04-26,Gold,XAU,Precious Metals,PM-CLIENT-01,J. Kowalski,Standard Chartered,Sell,Spot,26000,troy oz,2314.742,2305.6139,USD,60183292.0,Confirmed
+TRD-000300,2024-06-27,2024-06-29,Palladium,XPD,Precious Metals,PM-PROP-01,T. Vasquez,Barclays Metals,Sell,Forward,47100,troy oz,1045.3412,1045.4271,USD,49235570.52,Confirmed
