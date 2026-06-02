@@ -17,6 +17,12 @@ Trading desks generate enormous volumes of data — trade blotters, market price
 
 ---
 
+## Live Dashboard
+
+**[View interactive dashboard →](https://metals-risk-angie.lovable.app/)**
+
+---
+
 ## 🗂️ Repository Structure
 
 ```
