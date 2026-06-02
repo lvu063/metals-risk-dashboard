@@ -1,0 +1,409 @@
+-- =============================================================================
+-- dax_measures.dax
+-- Metals Risk Dashboard — Power BI DAX Measures
+--
+-- Paste these into Power BI Desktop via:
+--   Modeling tab → New Measure (one at a time)
+--   OR use Tabular Editor to bulk-import
+--
+-- Tables assumed (loaded from CSVs or direct query):
+--   trades, positions, pnl_daily, price_history, metals, books
+-- =============================================================================
+
+
+-- =============================================================================
+-- TABLE: _Measures  (create a blank table to house all measures cleanly)
+-- In Power BI: Enter Data → blank table named "_Measures"
+-- =============================================================================
+
+
+-- -----------------------------------------------------------------------------
+-- 1. CORE PNL MEASURES
+-- -----------------------------------------------------------------------------
+
+-- Total unrealised PnL across all visible filters
+Total Unrealised PnL =
+SUMX(
+    pnl_daily,
+    pnl_daily[unrealised_pnl]
+)
+
+-- MTM value of entire portfolio
+Total MTM Value =
+SUMX(
+    pnl_daily,
+    pnl_daily[mtm_value_usd]
+)
+
+-- Total cost basis
+Total Cost Basis =
+SUMX(
+    pnl_daily,
+    pnl_daily[cost_basis_usd]
+)
+
+-- PnL as % of cost basis (portfolio-level return)
+Portfolio PnL % =
+DIVIDE(
+    [Total Unrealised PnL],
+    ABS([Total Cost Basis]),
+    0
+) * 100
+
+-- PnL for Precious Metals desk only
+Precious Metals PnL =
+CALCULATE(
+    [Total Unrealised PnL],
+    books[desk] = "Precious Metals"
+)
+
+-- PnL for Base Metals desk only
+Base Metals PnL =
+CALCULATE(
+    [Total Unrealised PnL],
+    books[desk] = "Base Metals"
+)
+
+-- Winning positions count
+Winning Positions =
+COUNTROWS(
+    FILTER(pnl_daily, pnl_daily[unrealised_pnl] > 0)
+)
+
+-- Losing positions count
+Losing Positions =
+COUNTROWS(
+    FILTER(pnl_daily, pnl_daily[unrealised_pnl] < 0)
+)
+
+-- Win rate %
+Win Rate % =
+DIVIDE(
+    [Winning Positions],
+    [Winning Positions] + [Losing Positions],
+    0
+) * 100
+
+
+-- -----------------------------------------------------------------------------
+-- 2. DAILY PNL CHANGE (Day-over-Day)
+-- -----------------------------------------------------------------------------
+
+-- PnL as of selected date
+PnL Today =
+CALCULATE(
+    [Total Unrealised PnL],
+    pnl_daily[pnl_date] = MAX(pnl_daily[pnl_date])
+)
+
+-- PnL as of prior business day
+PnL Yesterday =
+VAR MaxDate = MAX(pnl_daily[pnl_date])
+VAR PrevDate =
+    CALCULATE(
+        MAX(pnl_daily[pnl_date]),
+        pnl_daily[pnl_date] < MaxDate
+    )
+RETURN
+    CALCULATE(
+        [Total Unrealised PnL],
+        pnl_daily[pnl_date] = PrevDate
+    )
+
+-- Day-over-day PnL change
+Daily PnL Change =
+[PnL Today] - [PnL Yesterday]
+
+-- Daily PnL change %
+Daily PnL Change % =
+DIVIDE(
+    [Daily PnL Change],
+    ABS([PnL Yesterday]),
+    0
+) * 100
+
+-- Formatted PnL change with arrow for card visuals
+PnL Change Label =
+VAR Change = [Daily PnL Change]
+VAR Arrow = IF(Change >= 0, "▲ ", "▼ ")
+RETURN
+    Arrow & FORMAT(ABS(Change), "$#,##0.00")
+
+
+-- -----------------------------------------------------------------------------
+-- 3. POSITION MEASURES
+-- -----------------------------------------------------------------------------
+
+-- Total open positions (non-flat)
+Open Positions =
+COUNTROWS(
+    FILTER(positions, positions[long_short] <> "Flat")
+)
+
+-- Total net quantity (all metals — only meaningful when filtered to one metal)
+Net Quantity =
+SUM(positions[net_quantity])
+
+-- Long exposure count
+Long Positions =
+COUNTROWS(
+    FILTER(positions, positions[long_short] = "Long")
+)
+
+-- Short exposure count
+Short Positions =
+COUNTROWS(
+    FILTER(positions, positions[long_short] = "Short")
+)
+
+-- Gross long notional
+Gross Long USD =
+CALCULATE(
+    SUM(trades[notional_usd]),
+    trades[buy_sell] = "Buy",
+    trades[status] IN {"Confirmed", "Pending"}
+)
+
+-- Gross short notional
+Gross Short USD =
+CALCULATE(
+    SUM(trades[notional_usd]),
+    trades[buy_sell] = "Sell",
+    trades[status] IN {"Confirmed", "Pending"}
+)
+
+-- Net exposure (long minus short)
+Net Exposure USD =
+[Gross Long USD] - [Gross Short USD]
+
+
+-- -----------------------------------------------------------------------------
+-- 4. TRADE ANALYTICS
+-- -----------------------------------------------------------------------------
+
+-- Total trade count (excl. cancelled)
+Active Trade Count =
+CALCULATE(
+    COUNTROWS(trades),
+    trades[status] <> "Cancelled"
+)
+
+-- Total notional traded (all active trades)
+Total Notional USD =
+CALCULATE(
+    SUM(trades[notional_usd]),
+    trades[status] <> "Cancelled"
+)
+
+-- Average trade size
+Avg Trade Size USD =
+DIVIDE(
+    [Total Notional USD],
+    [Active Trade Count],
+    0
+)
+
+-- Largest single trade
+Largest Trade USD =
+CALCULATE(
+    MAX(trades[notional_usd]),
+    trades[status] <> "Cancelled"
+)
+
+-- Trade count this month
+Trades This Month =
+CALCULATE(
+    COUNTROWS(trades),
+    DATESMTD(trades[trade_date]),
+    trades[status] <> "Cancelled"
+)
+
+-- Month-over-month trade count change
+MoM Trade Count Change =
+VAR ThisMonth = [Trades This Month]
+VAR LastMonth =
+    CALCULATE(
+        COUNTROWS(trades),
+        DATEADD(trades[trade_date], -1, MONTH),
+        trades[status] <> "Cancelled"
+    )
+RETURN
+    ThisMonth - LastMonth
+
+
+-- -----------------------------------------------------------------------------
+-- 5. PRICE MEASURES
+-- -----------------------------------------------------------------------------
+
+-- Latest spot price for selected metal
+Latest Spot Price =
+CALCULATE(
+    LASTNONBLANK(price_history[spot_price], 1),
+    price_history[price_date] = MAX(price_history[price_date])
+)
+
+-- Prior day spot price
+Prior Day Spot =
+VAR MaxDate = MAX(price_history[price_date])
+VAR PrevDate =
+    CALCULATE(
+        MAX(price_history[price_date]),
+        price_history[price_date] < MaxDate
+    )
+RETURN
+    CALCULATE(
+        MAX(price_history[spot_price]),
+        price_history[price_date] = PrevDate
+    )
+
+-- Spot price daily move %
+Spot Move % =
+DIVIDE(
+    [Latest Spot Price] - [Prior Day Spot],
+    [Prior Day Spot],
+    0
+) * 100
+
+-- 30-day high
+30D High =
+CALCULATE(
+    MAX(price_history[spot_price]),
+    DATESINPERIOD(
+        price_history[price_date],
+        MAX(price_history[price_date]),
+        -30, DAY
+    )
+)
+
+-- 30-day low
+30D Low =
+CALCULATE(
+    MIN(price_history[spot_price]),
+    DATESINPERIOD(
+        price_history[price_date],
+        MAX(price_history[price_date]),
+        -30, DAY
+    )
+)
+
+-- Price position within 30D range (0 = at low, 100 = at high)
+Price Range Position % =
+DIVIDE(
+    [Latest Spot Price] - [30D Low],
+    [30D High] - [30D Low],
+    0
+) * 100
+
+
+-- -----------------------------------------------------------------------------
+-- 6. RISK / CONCENTRATION MEASURES
+-- -----------------------------------------------------------------------------
+
+-- Book concentration % (selected book as % of total portfolio)
+Book Concentration % =
+DIVIDE(
+    CALCULATE(SUM(trades[notional_usd]),
+        trades[status] IN {"Confirmed","Pending"}),
+    CALCULATE(SUM(trades[notional_usd]),
+        ALL(trades[book_id]),
+        trades[status] IN {"Confirmed","Pending"}),
+    0
+) * 100
+
+-- Concentration flag (text for conditional formatting)
+Concentration Flag =
+VAR Pct = [Book Concentration %]
+RETURN
+    SWITCH(
+        TRUE(),
+        Pct > 40, "HIGH",
+        Pct > 25, "MEDIUM",
+        "NORMAL"
+    )
+
+-- Counterparty exposure (selected counterparty)
+Counterparty Gross Exposure =
+CALCULATE(
+    SUM(trades[notional_usd]),
+    trades[status] IN {"Confirmed","Pending"}
+)
+
+-- Top counterparty name by exposure
+Top Counterparty =
+TOPN(
+    1,
+    SUMMARIZE(
+        FILTER(trades, trades[status] IN {"Confirmed","Pending"}),
+        trades[counterparty],
+        "Exposure", SUM(trades[notional_usd])
+    ),
+    [Exposure]
+)
+
+
+-- -----------------------------------------------------------------------------
+-- 7. TIME INTELLIGENCE
+-- -----------------------------------------------------------------------------
+
+-- YTD PnL
+PnL YTD =
+CALCULATE(
+    [Total Unrealised PnL],
+    DATESYTD(pnl_daily[pnl_date])
+)
+
+-- QTD PnL
+PnL QTD =
+CALCULATE(
+    [Total Unrealised PnL],
+    DATESQTD(pnl_daily[pnl_date])
+)
+
+-- MTD PnL
+PnL MTD =
+CALCULATE(
+    [Total Unrealised PnL],
+    DATESMTD(pnl_daily[pnl_date])
+)
+
+-- Rolling 30-day average PnL
+Rolling 30D Avg PnL =
+CALCULATE(
+    AVERAGEX(
+        VALUES(pnl_daily[pnl_date]),
+        [Total Unrealised PnL]
+    ),
+    DATESINPERIOD(
+        pnl_daily[pnl_date],
+        MAX(pnl_daily[pnl_date]),
+        -30, DAY
+    )
+)
+
+
+-- -----------------------------------------------------------------------------
+-- 8. FORMATTING HELPERS (for card visuals and tooltips)
+-- -----------------------------------------------------------------------------
+
+-- Formatted PnL for display card (e.g. "$1.24M" or "($842K)")
+PnL Display =
+VAR Val = [Total Unrealised PnL]
+VAR Abs = ABS(Val)
+VAR Formatted =
+    SWITCH(
+        TRUE(),
+        Abs >= 1000000, FORMAT(Abs / 1000000, "0.00") & "M",
+        Abs >= 1000,    FORMAT(Abs / 1000,    "0.0")  & "K",
+                        FORMAT(Abs,            "0.00")
+    )
+RETURN
+    IF(Val < 0, "(" & "$" & Formatted & ")", "$" & Formatted)
+
+-- Spot price direction arrow
+Price Direction =
+IF([Spot Move %] >= 0, "▲", "▼")
+
+-- PnL colour flag (for conditional formatting rules)
+-- Use as a measure backing a conditional format: Green > 0, Red < 0
+PnL Colour Value =
+IF([Total Unrealised PnL] >= 0, 1, -1)
